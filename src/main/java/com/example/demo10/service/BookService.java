@@ -12,6 +12,7 @@ import java.util.List;
 public class BookService {
     private final BookRepository bookRepository;
 
+    /*Pobieranie wszystkich pozycji*/
     public List<BookModel> getBookLIst() {
         return bookRepository.findAll();
     }
