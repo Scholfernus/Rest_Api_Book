@@ -5,4 +5,7 @@ INSERT INTO book_model(title, author, year_of_issue)
 VALUES ('Da Vinci Code','Dan Brown','2015');
 
 INSERT INTO book_model(title, author, year_of_issue)
-VALUES ('Lord Jim','Byron','1888')
+VALUES ('Lord Jim','Byron','1888');
+
+INSERT INTO book_model(title, author, year_of_issue)
+VALUES ('Unknown', 'Unknown', '0000');
